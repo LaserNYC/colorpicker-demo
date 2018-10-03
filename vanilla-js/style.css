@@ -1,0 +1,28 @@
+body {
+  /* computed style gets converted to rgb if the initial alpha value is 1, we'll round this up with JS */
+  background-color: rgba(127,127,127,0.99);
+  font-family: sans-serif;
+}
+
+.slider {
+  padding: 20px 0;
+}
+
+input[type="range"]{
+  display: block;
+  width: 300px;
+}
+
+.color-display {
+  padding: 15px;
+  font-size: 32px;
+  border: 2px solid rgba(0,0,0,0.2);
+  outline: 0;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.color-display:focus {
+  border: 2px solid #000;
+}

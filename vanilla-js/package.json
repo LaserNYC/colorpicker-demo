@@ -1,0 +1,22 @@
+{
+  "name": "colorpicker-demo",
+  "version": "1.0.0",
+  "description": "Vanilla JS Colorpicker",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaserNYC/colorpicker-demo.git"
+  },
+  "author": "David Rahn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaserNYC/colorpicker-demo/issues"
+  },
+  "homepage": "https://github.com/LaserNYC/colorpicker-demo#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="range-sliders">
+		<div class="slider red">
+			<label for="red">Red</label>
+			<input name="red" type="range" min="0" max="255" data-id="0" value="127" />
+		</div>
+		
+		<div class="slider green">
+			<label for="green">Green</label>
+			<input name="green" type="range" min="0" max="255" data-id="1" value="127" />
+		</div>
+
+		<div class="slider blue">
+			<label for="blue">Blue</label>
+			<input name="blue" type="range" min="0" max="255" data-id="2" value="127" />
+		</div>
+
+		<div class="slider alpha">
+			<label for="alpha">Alpha</label>
+			<input name="alpha" type="range" min="0" max="100" data-id="3" value="100" />
+		</div>
+	</div>
+
+	<input class="color-display" id="rgb-value" value="rgba(127,127,127,1)" />
+	<input class="color-display" id="hex-value" value="#7F7F7F" />
+
+	<script src="index.js"></script>
+
+</body>
+</html>
