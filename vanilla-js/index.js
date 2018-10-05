@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', function(){
 	}
 
 	function handleColorChange(e){
-		currentColors[e.target.dataset.id] = (e.target.dataset.id === '3') ? e.target.value/100 : parseInt(e.target.value);
+		currentColors[e.target.dataset.id] = e.target.value;
 		hexContainer.value = '#' + rgbToHex(currentColors);
 		var updatedColor = 'rgba(' + currentColors.join(',') + ')';
 		document.body.style.backgroundColor = updatedColor;

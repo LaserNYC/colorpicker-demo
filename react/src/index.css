@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.color-sliders .slider {
+  padding: 20px 0;
+}
+
+.color-sliders input[type="range"]{
+  display: block;
+  width: 300px;
+}
+
+.color-display {
+  padding: 15px;
+  font-size: 32px;
+  border: 2px solid rgba(0,0,0,0.2);
+  outline: 0;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.color-display:focus {
+  border: 2px solid #000;
+}
