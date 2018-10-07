@@ -4,24 +4,20 @@ body {
   font-family: sans-serif;
 }
 
-.main {
-  width: 100vw;
-  height: 100vh;
-}
-
 .color-sliders {
-  height: 100%;
-  width: 100%;
+
+  .slider {
+    padding: 20px 0;
+  }
+  
+
+  input[type="range"]{
+    display: block;
+    width: 300px;
+  }
 }
 
-.color-sliders .slider {
-  padding: 20px 0;
-}
 
-.color-sliders input[type="range"]{
-  display: block;
-  width: 300px;
-}
 
 .color-display {
   padding: 15px;
